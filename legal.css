@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    
+
+}
+
+.background{
+    
+    background-color: rgb(59, 59, 59);
+    height: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kanyewest{
+    
+    height: 100px;
+}
+
+.pailink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.link{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 25px;
+    border: 2px solid rgb(97, 80, 250);
+    width: 100px;
+    padding: 2px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+
+}
