@@ -1,0 +1,35 @@
+body{
+  background-color: #313131;
+}
+
+.thumb{
+    background-image:url(music.jpg) ;
+    width: 250px;
+    height: 260px;
+    background-size: cover;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.item{
+    background-image: url(button.png);
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+   margin: 3px;
+   display: none;
+}
+
+.item:hover{
+    
+}
+
+.stats{
+
+    display: flex;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}

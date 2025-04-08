@@ -1,0 +1,31 @@
+.eclipse{
+
+        height:500px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+        align-items: flex-end;
+        
+}
+
+.item{
+
+    color: aliceblue;
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 2px solid rgba(178, 34, 34, 0.808);
+    background-color: rgba(148, 11, 11, 0.89);
+    height: 66px;
+    width: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.item:hover{
+
+    scale: 1.2;
+}
