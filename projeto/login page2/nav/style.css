@@ -1,0 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/gg-sans-2');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #00000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(23, 23, 23, 1) 100%);
+    background-size: cover;
+}
+
+li, a, button{
+    font-family: montserrat, sans-serif;
+    font-weight: 500px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    background: rgb(0, 0, 0, 0);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+button{
+    padding: 5px 20px;
+    background-color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s  ease 0s;
+}
+
